@@ -24,9 +24,9 @@ const Profile = () => {
           <div className='font-serif'>
             <p className=' text-lg '>I am an energetic girl who is willing to become a professional developer, 
               passionate about my goals, and always thrive in what I do. </p>
-            <a href='https://drive.google.com/file/d/1L5-YWGutBoidemtXmQemXFyWf_LTHauS/view?usp=sharing' >
+            <a href='https://drive.google.com/drive/folders/1ybbCIKSQvUAtSG_GHOHLZf6VN0fJsWAJ?usp=sharing' >
               <button className=' border border-pink-500 group text-black mt-4 px-4 py-2 mr-auto rounded-lg flex items-center
-            hover:bg-pink-200 ease-in-out duration-300 '>View my certificate
+            hover:bg-pink-200 ease-in-out duration-300 '>View my certificates
               <span className=' group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3' />
               </span>
