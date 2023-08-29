@@ -51,12 +51,12 @@ const Skills = () => {
                     <div className=' py-6 max-w-[250px] flex flex-col justify-between'>
                         <p className='mb-1 text-left font-medium'>English</p>
                         <div className="w-full bg-blue-300 rounded-full h-1.5 mb-2 items-center">
-                            <div className="bg-pink-500 h-1.5 rounded-full" style={{width: "80%"}}></div>
+                            <div className="bg-pink-500 h-1.5 rounded-full" style={{width: "65%"}}></div>
                         </div>
                         
                         <p className='mb-1 text-left font-medium'>Korean</p>
                         <div className="w-full bg-blue-300 rounded-full h-1.5 mb-2 items-center">
-                            <div className="bg-pink-500 h-1.5 rounded-full" style={{width: "90%"}}></div>
+                            <div className="bg-pink-500 h-1.5 rounded-full" style={{width: "75%"}}></div>
                         </div>
                     </div>
                 </div>
