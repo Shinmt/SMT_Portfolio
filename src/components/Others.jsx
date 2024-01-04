@@ -8,7 +8,7 @@ const Others = () => {
           
           <div className='sm:text-right'>
             <h1 className='text-4xl font-bold inline border-b-2 border-pink-500'>Passion</h1>
-            <p className=' py-4 text-md font-serif '>I have taught myself ReactJS over the course of four months and continue to progress with the guidance of a mentor who provides me with a roadmap for becoming a web developer. In this ever-changing technological landscape, I am committed to becoming a proficient full-stack web developer capable of creating diverse software and websites for various industries.</p>
+            <p className=' py-4 text-md font-serif '>I have taught myself ReactJS over online courses and continue to progress with a roadmap for becoming a web developer. In this ever-changing technological landscape, I am committed to becoming a proficient full-stack web developer capable of creating diverse software and websites for various industries.</p>
           </div>
           <div className=' py-20 sm:text-left'>
             <h1 className='text-4xl font-bold inline border-b-2 border-pink-500'>Motivation</h1>

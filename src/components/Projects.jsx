@@ -53,6 +53,25 @@ const Projects = () => {
                   </div>
                 </div>
 
+                {/* <div style={{backgroundImage: `url(${Ecommerce})`}}
+                className=' shadow-md shadow-current group container rounded-md flex justify-center items-center mx-auto content-div'>
+                  <div className=' opacity-0 group-hover:opacity-100 text-center '>
+                    <span className=' text-xl text-center tracking-wider '>
+                      React JS Project
+                    </span>
+
+                    {/* hover effect */}
+                  {/* <div className='pt-8 text-center'>
+                    <a href='https://shin-ecommerce-shop.netlify.app'>
+                      <button className=' text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-semibold text-md'>DEMO</button>
+                    </a>
+                    <a href='https://github.com/Shinmt/ecommercewebsite.git'>
+                      <button className=' text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-semibold text-md'>CODE</button>
+                    </a>
+                  </div>
+                  </div>
+                </div> */}
+
             </div>
         </div>
     </div>

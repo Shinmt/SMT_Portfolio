@@ -1,11 +1,43 @@
 import React from 'react'
-import HTML from '../assets/html.png'
-import CSS from '../assets/css.png'
-import JavaScript from '../assets/javascript.png'
-import ReactJS from '../assets/react.png'
-import TailwindCss from '../assets/tailwind.png'
-import Github from '../assets/github.png'
+import HTMLimg from '../assets/html.png'
+import CSSimg from '../assets/css.png'
+import JavaScriptimg from '../assets/javascript.png'
+import ReactJSimg from '../assets/react.png'
+import TailwindCssimg from '../assets/tailwind.png'
+import Githubimg from '../assets/github.png'
+import Figmaimg from '../assets/figma.png'
 
+const image = [
+    {
+        title: 'HTML',
+        img: HTMLimg,
+    },
+    {
+        title: 'CSS',
+        img: CSSimg,
+    },
+    {
+        title: 'JAVASCRIPT',
+        img: JavaScriptimg,
+    },
+    {
+        title: 'REACT JS',
+        img: ReactJSimg,
+    },
+
+    {
+        title: 'TAILWIND CSS',
+        img: TailwindCssimg,
+    },
+    {
+        title: 'GITHUB',
+        img: Githubimg,
+    },
+    {
+        title: 'FIGMA',
+        img: Figmaimg,
+    },
+]
 const Skills = () => {
   return (
     <div name='Skills' className=' w-full h-auto bg-gradient-to-b from-pink-200 to-blue-200 '>
@@ -15,31 +47,16 @@ const Skills = () => {
                 <p className=' py-6'>These are the technologies I've learned with</p>
             </div>
 
-            <div className=' w-auto grid grid-cols-2 sm:grid-cols-3 py-8 text-center items-center gap-4'>
-                <div className=' shadow-md shadow-current hover:scale-110 duration-500'>
-                    <img className=' w-20 mx-auto mt-2 ' src={HTML} alt='HTML' />
-                    <p className=' font-serif my-4'>HTML</p>
-                </div>
-                <div className=' shadow-md shadow-current hover:scale-110 duration-500'>
-                    <img className=' w-20 mx-auto mt-2 ' src={CSS} alt='CSS' />
-                    <p className=' font-serif my-4'>CSS</p>
-                </div>
-                <div className=' shadow-md shadow-current hover:scale-110 duration-500'>
-                    <img className=' w-20 mx-auto mt-2 ' src={JavaScript} alt='JavaScript' />
-                    <p className=' font-serif my-4'>JavaScript</p>
-                </div>
-                <div className=' shadow-md shadow-current hover:scale-110 duration-500'>
-                    <img className=' w-20 mx-auto mt-2 ' src={TailwindCss} alt='TailwindCss' />
-                    <p className=' font-serif my-4'>TailwindCss</p>
-                </div>
-                <div className=' shadow-md shadow-current hover:scale-110 duration-500'>
-                    <img className=' w-20 mx-auto mt-2 ' src={ReactJS} alt='ReactJS' />
-                    <p className=' font-serif my-4'>ReactJS</p>
-                </div>
-                <div className=' shadow-md shadow-current hover:scale-110 duration-500'>
-                    <img className=' w-20 mx-auto mt-2 ' src={Github} alt='Github' />
-                    <p className=' font-serif my-4'>Github</p>
-                </div>
+            <div className=' w-auto grid grid-cols-3 sm:grid-cols-4 py-8 text-center items-center gap-4'>
+            {
+                image.map ((r,i) => (
+                    <div key={i} 
+                    className=' shadow-md shadow-current hover:scale-110 duration-500'>
+                        <img className=' w-20 mx-auto mt-2' src={r.img} alt={r.title} />
+                        <p className=' font-serif my-4' >{r.title}</p>
+                    </div>
+                ))
+            }
             </div>
         </div>
 
