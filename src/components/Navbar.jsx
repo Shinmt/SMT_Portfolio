@@ -80,12 +80,12 @@ const Navbar = () => {
                         Mail <HiOutlineMail size={25} />
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a className=' w-[120px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-400'
                     href='https://drive.google.com/file/d/1CNR2g9vO78hAo_xqLv4lpsJsl80aM-bn/view?usp=sharing'>
                         Resume <BsFillPersonLinesFill size={25} />
                     </a>
-                </li>
+                </li> */}
             </ul>
 
         </div>
